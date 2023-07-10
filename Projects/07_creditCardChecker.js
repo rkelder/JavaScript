@@ -1,3 +1,15 @@
+/*
+
+This code checks a series of credit card numbers for their validity.
+
+Valid creditcard numbers return true;
+
+Invalid creditcard numbers return false and are added to a list of invalid credit card numbers.
+
+The code then checks the list of invalid creditcard numbers and checks if these belong to any known credit card issuers. The code then creates a list of encountered credit card companies.
+
+*/
+
 // All valid credit card numbers
 const valid1 = [4, 5, 3, 9, 6, 7, 7, 9, 0, 8, 0, 1, 6, 8, 0, 8];
 const valid2 = [5, 5, 3, 5, 7, 6, 6, 7, 6, 8, 7, 5, 1, 4, 3, 9];
@@ -38,7 +50,6 @@ const batch = [
   mystery5,
 ];
 
-// Add your functions below:
 let validateCred = function (arr) {
   let arrayCopy = arr.slice().reverse();
   let validatedNumber = [];
@@ -109,10 +120,5 @@ let idInvalidCardCompanies = function (param) {
   }
   console.log(invalidCardCompanies);
 };
-
-// I want to iterate through the array of invalid numbers;
-// I want to check the first digit of each series of numbers against a list of credit card providers
-// I want to push the credit card provider's name to the list;
-// IF the name does not exist yet
 
 idInvalidCardCompanies(invalidCards);
