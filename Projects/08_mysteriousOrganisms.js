@@ -1,3 +1,15 @@
+/*
+
+This code creates a named simulation of a single-celled organism consisting of 15 DNA bases. 
+
+The code is able to compare the organism's DNA to that of another named, single-celled organism. 
+
+The code is also able to indicate whether an organism contains specific DNA bases that increase its odds of survivability.
+
+Finally, the code is able to create a list of organisms that are all guaranteed to only possess the specific DNA type that increases its odds of survivability. 
+
+*/
+
 // Returns a random DNA base
 const returnRandBase = () => {
     const dnaBases = ["A", "T", "C", "G"];
