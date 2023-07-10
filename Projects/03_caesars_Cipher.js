@@ -27,7 +27,7 @@ function rot13(string) {
        return decipheredString;
 }
 
-console.log(rot13("SERR PBQR PNZC", 13));
-console.log(rot13("SERR CVMMN!", 13))
-console.log(rot13("SERR YBIR?", 13))
-console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.", 13));
+console.log(rot13("SERR PBQR PNZC", 13)); // should decode to the string FREE CODE CAMP
+console.log(rot13("SERR CVMMN!", 13)) // should decode to the string FREE PIZZA!
+console.log(rot13("SERR YBIR?", 13)) // should decode to the string FREE LOVE?
+console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.", 13)); // should decode to the string THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
