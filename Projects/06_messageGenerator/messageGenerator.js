@@ -1,3 +1,15 @@
+/*
+
+This messagegenerator serves to output a randomized, inspiring coding related message.
+
+In the related .html file, you will see an interactive button that you can click in order to generate said message.
+
+The code has been written in such a way that a random message will never repeat. 
+
+Once all random messages have been generated, the text field containing the message will reset automatically.
+
+*/
+
 const messages = {
     message_1: "Coding like poetry should be short and concise. ― Santosh Kalwar",
     message_2: "It’s not a bug; it’s an undocumented feature. ― Anonymous",
