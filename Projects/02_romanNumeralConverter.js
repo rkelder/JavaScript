@@ -34,3 +34,6 @@ function convertToRoman(num) {
   
     return result;
   }
+
+console.log(convertToRoman(649)) // should return the string DCXLIX;
+console.log(convertToRoman(3999)) // should return the string MMMCMXCIX;
