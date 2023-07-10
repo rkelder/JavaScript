@@ -23,11 +23,11 @@ function palindrome(str) {
     }
     }
 
-    // palindrome("A man, a plan, a canal. Panama");
+    // palindrome("A man, a plan, a canal. Panama"); returns true
     console.log(palindrome("A man, a plan, a canal. Panama"));
-    // palindrome("1 eye for of 1 eye.");
+    // palindrome("1 eye for of 1 eye."); returns false
     console.log(palindrome("1 eye for of 1 eye."));
-    // palindrome("My age is 0, 0 si ega ym.");
+    // palindrome("My age is 0, 0 si ega ym."); returns true
     console.log(palindrome("My age is 0, 0 si ega ym."))
-    // palindrome("0_0 (: /-\ :) 0-0");
+    // palindrome("0_0 (: /-\ :) 0-0"); returns true
     console.log(palindrome("0_0 (: /-\ :) 0-0"))
