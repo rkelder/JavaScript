@@ -31,3 +31,7 @@ As of 10/07/2023 this folder contains the following projects:
 
 + mysteriousOrganisms
   Simulate the evolution of a single celled organism.
+
+I hope that you will enjoy reading my code as much as I have enjoyed learning how to write it. 
+
+Roderik
